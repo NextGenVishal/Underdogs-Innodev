@@ -5,7 +5,7 @@
 
 * Team Members Name :
 1. Vishal Yadav ( )
-2. Satyam Raj ()
+2. Satyam Singh ()
 3. Riya ()
 
 *  Proposed Features
