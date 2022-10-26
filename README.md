@@ -4,9 +4,9 @@
 ###  Underdogs
 
 * Team Members Name :
-1. Vishal Yadav ( )
+1. Vishal Yadav (https://github.com/NextGenVishal )
 2. Satyam Singh ()
-3. Riya ()
+3. Riya (https://github.com/riya1901)
 
 *  Proposed Features
  
