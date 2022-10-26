@@ -5,7 +5,7 @@
 
 * Team Members Name :
 1. Vishal Yadav (https://github.com/NextGenVishal )
-2. Satyam Singh ()
+2. Satyam Singh (https://github.com/satyam-singh-rajput)
 3. Riya (https://github.com/riya1901)
 
 *  Proposed Features
