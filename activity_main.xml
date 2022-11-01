@@ -33,26 +33,40 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_started_title"
 
     />
-        <ImageView
-            android:id="@+id/img_illustration_started"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/illustration_started"
-            app:layout_constraintTop_toBottomOf="@+id/tv_started_title"
-
-        />
-
-
-    <Button
-        android:id="@+id/mybutton"
-        android:layout_width="139dp"
-        android:layout_height="88dp"
-        android:text="Click Me "
+       <ImageView
+        android:id="@+id/img_illustration_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ContentDescription="@string/illustration_img"
+        android:src="@drawable/illustration_started"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.928" />
 
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@id/btn_login"
+        style="@style/ButtonWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="617dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Register"
+        style="@style/ButtonWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+   
 </androidx.constraintlayout.widget.ConstraintLayout>
