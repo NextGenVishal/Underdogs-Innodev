@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/primary_color"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_started_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/started_title"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/tv_started_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margintop="15dp"
+        android:text="@string/started_subtitle"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_started_title"
+
+    />
+        <ImageView
+            android:id="@+id/img_illustration_started"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/illustration_started"
+            app:layout_constraintTop_toBottomOf="@+id/tv_started_title"
+
+        />
+
+
+    <Button
+        android:id="@+id/mybutton"
+        android:layout_width="139dp"
+        android:layout_height="88dp"
+        android:text="Click Me "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
